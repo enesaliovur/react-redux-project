@@ -61,8 +61,9 @@ export default function ProductList() {
               </Button>
             </Card.Content>
           </Card>
-        ))}
-      </Card.Group>
+        ))} 
+        </Card.Group>
+     
     </div>
   );
 }

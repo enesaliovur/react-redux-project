@@ -25,7 +25,7 @@ export default function Navi() {
       <Menu inverted fixed="top" size="large">
         <Container>
           <Menu.Item as={NavLink} exact to="/" name="Anasayfa" />
-          <Menu.Item name="messages" />
+       
           <Menu.Menu position="right">
             {cartItems.length > 0 && <CartSummary />}
             {isAuthenticated ? (
